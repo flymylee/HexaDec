@@ -1,0 +1,44 @@
+{
+  "name": "hexadec",
+	"displayName": "HexaDec",
+	"description": "A Hex-Dec Converter",
+	"version": "0.0.1",
+  "publisher": "flymylee",
+  "icon": "https://github.com/flymylee/HexaDec/raw/master/image/flymylee.jpg",
+  "galleryBanner": {
+    "color": "#202080",
+    "theme": "dark"
+  },
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onCommand:hex-dec.convert"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [{
+            "command": "hexadec.convert",
+            "title": "HexaDec: Hex-Dec Convert"
+		}]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.42.0",
+        "eslint": "^8.1.0",
+        "glob": "^7.1.7"
+    },
+		"__metadata": {
+			"id": "3f1ae675-9fa1-4ae5-9c03-7457d4290139",
+			"publisherId": "aeb1f0e6-803a-40cb-a2f5-ce3fe2eb82a5",
+			"publisherDisplayName": "M. LEE",
+			"installedTimestamp": 1640018459417
+		}
+}
