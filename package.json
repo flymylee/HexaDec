@@ -16,7 +16,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:hex-dec.convert"
+        "onCommand:hexadec.convert"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
