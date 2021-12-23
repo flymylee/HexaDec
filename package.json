@@ -4,7 +4,7 @@
 	"description": "An extension for Visual Studio Code that allows you convert hexadecimal to decimal and vice versa.",
 	"version": "0.0.1",
   "publisher": "flymylee",
-  "icon": "https://github.com/flymylee/HexaDec/raw/master/image/flymylee.jpg",
+  "icon": "image/flymylee.jpg",
   "galleryBanner": {
     "color": "#202080",
     "theme": "dark"
